@@ -31,7 +31,7 @@ public void insert_newPCB (Process_Control_Block pcb) {
 		if(currentTimeQuantum >= maxTimeQuantum)// && pcbList.size() >1)
 		{
 			//String name = pcb.get_ProgramName();
-			//System.out.printf("SwitchProcess to\n", name);
+			//System.out.printf("SwitchProcess to\n", name);'
 			nextProcess();
 			//pcbList.remove(index);
 			
